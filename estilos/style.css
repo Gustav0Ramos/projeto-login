@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #49a09d;
+    --cor2: #5f2c82;
+}
+
+body{
+    background-color: var(--cor2);
+    margin-top: 50px;
+}
+
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+#tela{
+    background-color: white;
+    border-radius: 35px;
+    border: 2px solid purple;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    padding: 14px;
+    width: 260px;
+    height: 540px;
+    margin: auto;
+ }
+
+ #img{
+    padding: 90px;
+    margin: -14px;
+    border-radius: 32px 32px 0px 0px;
+    background-image: url('../imagens/pexels-katie-rainbow-🏳️_🌈-8276914.jpg');
+    background-position: center top;
+ }
+
+ #nome {
+    padding: 3px;
+    background-color: var(--cor2);
+    border-radius: 15px;
+    border: 1px solid rgb(250, 249, 249);
+    margin: auto;
+ }
+
+ #iname {
+    background-color: #8bd8d5fa;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: -2px;
+ }
+
+ #person {
+    color: white;
+    padding: 10px;
+ }
+
+ #senha {
+    padding: 3px;
+    background-color: var(--cor2);
+    border-radius: 15px;
+    border: 1px solid rgb(250, 249, 249);
+    margin: auto;
+ }
+
+ #isen {
+    background-color: #8bd8d5fa;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+ }
+
+ #key {
+    color: white;
+    padding: 10px;
+ }
+
+ #entrar{
+    background-color: #49a09d;
+    width: 250px;
+    height: 45px;
+    margin: auto;
+    color: white;
+    border: 1px solid;
+    border-radius: 10px;
+ }
+
+ #entrar:hover {
+    background-color: #49a09dc7;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+ }
+
+ #limpar {
+    background-color: white;
+    width: 250px;
+    height: 45px;
+    margin: auto;
+    color: #49a09d;
+    border: 1px solid;
+    border-radius: 10px;
+ }
+
+ #limpar:hover{
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+ }

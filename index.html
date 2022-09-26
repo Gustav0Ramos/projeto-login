@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <header id="tela">
+        <div id="img"></div>
+        <h1 id="login">Login</h1>
+        <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+
+        <form action="cadastro.php" method="post" autocomplete="on">
+
+            <div id="nome">
+                <label for="iname"><span id="person" class="material-icons">person</span></label>
+                <input type="text" name="name" id="iname" required placeholder="Seu e-mail"><br>
+            </div>
+
+            <div id="senha">
+                <label for="isen"><span id="key" class="material-symbols-outlined">vpn_key</span></label>
+                <input type="password" name="sen" id="isen" required minlength="5" maxlength="16" placeholder="Sua senha"><br>
+            </div>
+
+            <input type="submit" value="Entrar" id="entrar"><br>
+
+            <input type="reset" value="Limpar" id="limpar"><!--Esquecia a senha<span class="material-symbols-outlined">mail</span>--><br>
+        </form>
+    </header>
+    
+</body>
+</html>
